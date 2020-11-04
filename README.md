@@ -8,7 +8,9 @@ This code is kind of old (mid 2013). It's been a while since I was dealing with 
 You have to put the files in the /src/applications/ directory:
 
 voip-client-server-helper.(h/cc): /src/applications/helper/
+
 voip-client.(h,cc) and voip-server.(h,cc): /src/applications/model/
+
 
 Remember to add the entries for these files to the waf script (wscript).
 
